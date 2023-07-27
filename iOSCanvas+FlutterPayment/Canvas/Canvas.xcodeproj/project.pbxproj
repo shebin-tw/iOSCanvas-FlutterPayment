@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D777C92099F05CAFA9A9F6 /* Pods_Canvas_CanvasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC597A1150A1B3166FD4AB3E /* Pods_Canvas_CanvasUITests.framework */; };
+		7D368C276846D9CF9BB040FC /* Pods_Canvas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEEF6D9591DA92407E581F9 /* Pods_Canvas.framework */; };
+		98FFEFE92A72EE3F0082E921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FFEFE82A72EE3F0082E921 /* AppDelegate.swift */; };
+		98FFEFEB2A72EE3F0082E921 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FFEFEA2A72EE3F0082E921 /* SceneDelegate.swift */; };
+		98FFEFED2A72EE3F0082E921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FFEFEC2A72EE3F0082E921 /* ViewController.swift */; };
+		98FFEFF02A72EE3F0082E921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FFEFEE2A72EE3F0082E921 /* Main.storyboard */; };
+		98FFEFF22A72EE400082E921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FFEFF12A72EE400082E921 /* Assets.xcassets */; };
+		98FFEFF52A72EE400082E921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FFEFF32A72EE400082E921 /* LaunchScreen.storyboard */; };
+		98FFF0002A72EE400082E921 /* CanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FFEFFF2A72EE400082E921 /* CanvasTests.swift */; };
+		98FFF00A2A72EE400082E921 /* CanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FFF0092A72EE400082E921 /* CanvasUITests.swift */; };
+		98FFF00C2A72EE400082E921 /* CanvasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FFF00B2A72EE400082E921 /* CanvasUITestsLaunchTests.swift */; };
+		A47EE9547CB0631263A153A1 /* Pods_CanvasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C29E481E5E2C1B7B48FA20E /* Pods_CanvasTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98FFEFFC2A72EE400082E921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98FFEFDD2A72EE3E0082E921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98FFEFE42A72EE3E0082E921;
+			remoteInfo = Canvas;
+		};
+		98FFF0062A72EE400082E921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98FFEFDD2A72EE3E0082E921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98FFEFE42A72EE3E0082E921;
+			remoteInfo = Canvas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17FB0F3E68DCC578D8A7E3BF /* Pods-Canvas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canvas.release.xcconfig"; path = "Target Support Files/Pods-Canvas/Pods-Canvas.release.xcconfig"; sourceTree = "<group>"; };
+		1C29E481E5E2C1B7B48FA20E /* Pods_CanvasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanvasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2386903C43AAA54B1864B113 /* Pods-CanvasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasTests.release.xcconfig"; path = "Target Support Files/Pods-CanvasTests/Pods-CanvasTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A44DABA4A9116CD4397AFE4 /* Pods-Canvas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canvas.debug.xcconfig"; path = "Target Support Files/Pods-Canvas/Pods-Canvas.debug.xcconfig"; sourceTree = "<group>"; };
+		43606555E9D57F5EAF33DE76 /* Pods-Canvas-CanvasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canvas-CanvasUITests.release.xcconfig"; path = "Target Support Files/Pods-Canvas-CanvasUITests/Pods-Canvas-CanvasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47AFF5B2251D56572888E7FA /* Pods-Canvas-CanvasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canvas-CanvasUITests.debug.xcconfig"; path = "Target Support Files/Pods-Canvas-CanvasUITests/Pods-Canvas-CanvasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48D2AAF89ADB74B7D9B5900A /* Pods-CanvasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasTests.debug.xcconfig"; path = "Target Support Files/Pods-CanvasTests/Pods-CanvasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98FFEFE52A72EE3E0082E921 /* Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FFEFE82A72EE3F0082E921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98FFEFEA2A72EE3F0082E921 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98FFEFEC2A72EE3F0082E921 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98FFEFEF2A72EE3F0082E921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98FFEFF12A72EE400082E921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98FFEFF42A72EE400082E921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98FFEFF62A72EE400082E921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FFEFFB2A72EE400082E921 /* CanvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FFEFFF2A72EE400082E921 /* CanvasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasTests.swift; sourceTree = "<group>"; };
+		98FFF0052A72EE400082E921 /* CanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FFF0092A72EE400082E921 /* CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUITests.swift; sourceTree = "<group>"; };
+		98FFF00B2A72EE400082E921 /* CanvasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAEEF6D9591DA92407E581F9 /* Pods_Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC597A1150A1B3166FD4AB3E /* Pods_Canvas_CanvasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Canvas_CanvasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98FFEFE22A72EE3E0082E921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D368C276846D9CF9BB040FC /* Pods_Canvas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FFEFF82A72EE400082E921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47EE9547CB0631263A153A1 /* Pods_CanvasTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FFF0022A72EE400082E921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D777C92099F05CAFA9A9F6 /* Pods_Canvas_CanvasUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4882CE6334965BA649C7F374 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAEEF6D9591DA92407E581F9 /* Pods_Canvas.framework */,
+				DC597A1150A1B3166FD4AB3E /* Pods_Canvas_CanvasUITests.framework */,
+				1C29E481E5E2C1B7B48FA20E /* Pods_CanvasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98FFEFDC2A72EE3E0082E921 = {
+			isa = PBXGroup;
+			children = (
+				98FFEFE72A72EE3E0082E921 /* Canvas */,
+				98FFEFFE2A72EE400082E921 /* CanvasTests */,
+				98FFF0082A72EE400082E921 /* CanvasUITests */,
+				98FFEFE62A72EE3E0082E921 /* Products */,
+				FD1676C213E92C4ED6394108 /* Pods */,
+				4882CE6334965BA649C7F374 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98FFEFE62A72EE3E0082E921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98FFEFE52A72EE3E0082E921 /* Canvas.app */,
+				98FFEFFB2A72EE400082E921 /* CanvasTests.xctest */,
+				98FFF0052A72EE400082E921 /* CanvasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98FFEFE72A72EE3E0082E921 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				98FFEFE82A72EE3F0082E921 /* AppDelegate.swift */,
+				98FFEFEA2A72EE3F0082E921 /* SceneDelegate.swift */,
+				98FFEFEC2A72EE3F0082E921 /* ViewController.swift */,
+				98FFEFEE2A72EE3F0082E921 /* Main.storyboard */,
+				98FFEFF12A72EE400082E921 /* Assets.xcassets */,
+				98FFEFF32A72EE400082E921 /* LaunchScreen.storyboard */,
+				98FFEFF62A72EE400082E921 /* Info.plist */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		98FFEFFE2A72EE400082E921 /* CanvasTests */ = {
+			isa = PBXGroup;
+			children = (
+				98FFEFFF2A72EE400082E921 /* CanvasTests.swift */,
+			);
+			path = CanvasTests;
+			sourceTree = "<group>";
+		};
+		98FFF0082A72EE400082E921 /* CanvasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98FFF0092A72EE400082E921 /* CanvasUITests.swift */,
+				98FFF00B2A72EE400082E921 /* CanvasUITestsLaunchTests.swift */,
+			);
+			path = CanvasUITests;
+			sourceTree = "<group>";
+		};
+		FD1676C213E92C4ED6394108 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A44DABA4A9116CD4397AFE4 /* Pods-Canvas.debug.xcconfig */,
+				17FB0F3E68DCC578D8A7E3BF /* Pods-Canvas.release.xcconfig */,
+				47AFF5B2251D56572888E7FA /* Pods-Canvas-CanvasUITests.debug.xcconfig */,
+				43606555E9D57F5EAF33DE76 /* Pods-Canvas-CanvasUITests.release.xcconfig */,
+				48D2AAF89ADB74B7D9B5900A /* Pods-CanvasTests.debug.xcconfig */,
+				2386903C43AAA54B1864B113 /* Pods-CanvasTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98FFEFE42A72EE3E0082E921 /* Canvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FFF00F2A72EE400082E921 /* Build configuration list for PBXNativeTarget "Canvas" */;
+			buildPhases = (
+				D9BADBF8FEF5FF810B24AB25 /* [CP] Check Pods Manifest.lock */,
+				398349B9E68973981C54975A /* [CP-User] Run Flutter Build ss_payment Script */,
+				98FFEFE12A72EE3E0082E921 /* Sources */,
+				98FFEFE22A72EE3E0082E921 /* Frameworks */,
+				98FFEFE32A72EE3E0082E921 /* Resources */,
+				46F2E20762DDD2DBE8ED9918 /* [CP-User] Embed Flutter Build ss_payment Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canvas;
+			productName = Canvas;
+			productReference = 98FFEFE52A72EE3E0082E921 /* Canvas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98FFEFFA2A72EE400082E921 /* CanvasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FFF0122A72EE400082E921 /* Build configuration list for PBXNativeTarget "CanvasTests" */;
+			buildPhases = (
+				291990C77C758F25C383D924 /* [CP] Check Pods Manifest.lock */,
+				98FFEFF72A72EE400082E921 /* Sources */,
+				98FFEFF82A72EE400082E921 /* Frameworks */,
+				98FFEFF92A72EE400082E921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98FFEFFD2A72EE400082E921 /* PBXTargetDependency */,
+			);
+			name = CanvasTests;
+			productName = CanvasTests;
+			productReference = 98FFEFFB2A72EE400082E921 /* CanvasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98FFF0042A72EE400082E921 /* CanvasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FFF0152A72EE400082E921 /* Build configuration list for PBXNativeTarget "CanvasUITests" */;
+			buildPhases = (
+				BE3F3CF28AC29FA33C02613F /* [CP] Check Pods Manifest.lock */,
+				98FFF0012A72EE400082E921 /* Sources */,
+				98FFF0022A72EE400082E921 /* Frameworks */,
+				98FFF0032A72EE400082E921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98FFF0072A72EE400082E921 /* PBXTargetDependency */,
+			);
+			name = CanvasUITests;
+			productName = CanvasUITests;
+			productReference = 98FFF0052A72EE400082E921 /* CanvasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98FFEFDD2A72EE3E0082E921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					98FFEFE42A72EE3E0082E921 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					98FFEFFA2A72EE400082E921 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 98FFEFE42A72EE3E0082E921;
+					};
+					98FFF0042A72EE400082E921 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 98FFEFE42A72EE3E0082E921;
+					};
+				};
+			};
+			buildConfigurationList = 98FFEFE02A72EE3E0082E921 /* Build configuration list for PBXProject "Canvas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98FFEFDC2A72EE3E0082E921;
+			productRefGroup = 98FFEFE62A72EE3E0082E921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98FFEFE42A72EE3E0082E921 /* Canvas */,
+				98FFEFFA2A72EE400082E921 /* CanvasTests */,
+				98FFF0042A72EE400082E921 /* CanvasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98FFEFE32A72EE3E0082E921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FFEFF52A72EE400082E921 /* LaunchScreen.storyboard in Resources */,
+				98FFEFF22A72EE400082E921 /* Assets.xcassets in Resources */,
+				98FFEFF02A72EE3F0082E921 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FFEFF92A72EE400082E921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FFF0032A72EE400082E921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		291990C77C758F25C383D924 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CanvasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		398349B9E68973981C54975A /* [CP-User] Run Flutter Build ss_payment Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build ss_payment Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../ss_payment/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		46F2E20762DDD2DBE8ED9918 /* [CP-User] Embed Flutter Build ss_payment Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build ss_payment Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../ss_payment/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		BE3F3CF28AC29FA33C02613F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Canvas-CanvasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BADBF8FEF5FF810B24AB25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Canvas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98FFEFE12A72EE3E0082E921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FFEFED2A72EE3F0082E921 /* ViewController.swift in Sources */,
+				98FFEFE92A72EE3F0082E921 /* AppDelegate.swift in Sources */,
+				98FFEFEB2A72EE3F0082E921 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FFEFF72A72EE400082E921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FFF0002A72EE400082E921 /* CanvasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FFF0012A72EE400082E921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FFF00C2A72EE400082E921 /* CanvasUITestsLaunchTests.swift in Sources */,
+				98FFF00A2A72EE400082E921 /* CanvasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98FFEFFD2A72EE400082E921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98FFEFE42A72EE3E0082E921 /* Canvas */;
+			targetProxy = 98FFEFFC2A72EE400082E921 /* PBXContainerItemProxy */;
+		};
+		98FFF0072A72EE400082E921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98FFEFE42A72EE3E0082E921 /* Canvas */;
+			targetProxy = 98FFF0062A72EE400082E921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98FFEFEE2A72EE3F0082E921 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98FFEFEF2A72EE3F0082E921 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98FFEFF32A72EE400082E921 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98FFEFF42A72EE400082E921 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98FFF00D2A72EE400082E921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98FFF00E2A72EE400082E921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98FFF0102A72EE400082E921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A44DABA4A9116CD4397AFE4 /* Pods-Canvas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Canvas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shebin.Canvas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98FFF0112A72EE400082E921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17FB0F3E68DCC578D8A7E3BF /* Pods-Canvas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Canvas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shebin.Canvas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98FFF0132A72EE400082E921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D2AAF89ADB74B7D9B5900A /* Pods-CanvasTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shebin.CanvasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canvas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Canvas";
+			};
+			name = Debug;
+		};
+		98FFF0142A72EE400082E921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2386903C43AAA54B1864B113 /* Pods-CanvasTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shebin.CanvasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canvas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Canvas";
+			};
+			name = Release;
+		};
+		98FFF0162A72EE400082E921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47AFF5B2251D56572888E7FA /* Pods-Canvas-CanvasUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shebin.CanvasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Canvas;
+			};
+			name = Debug;
+		};
+		98FFF0172A72EE400082E921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43606555E9D57F5EAF33DE76 /* Pods-Canvas-CanvasUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shebin.CanvasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Canvas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98FFEFE02A72EE3E0082E921 /* Build configuration list for PBXProject "Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FFF00D2A72EE400082E921 /* Debug */,
+				98FFF00E2A72EE400082E921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FFF00F2A72EE400082E921 /* Build configuration list for PBXNativeTarget "Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FFF0102A72EE400082E921 /* Debug */,
+				98FFF0112A72EE400082E921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FFF0122A72EE400082E921 /* Build configuration list for PBXNativeTarget "CanvasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FFF0132A72EE400082E921 /* Debug */,
+				98FFF0142A72EE400082E921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FFF0152A72EE400082E921 /* Build configuration list for PBXNativeTarget "CanvasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FFF0162A72EE400082E921 /* Debug */,
+				98FFF0172A72EE400082E921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98FFEFDD2A72EE3E0082E921 /* Project object */;
+}

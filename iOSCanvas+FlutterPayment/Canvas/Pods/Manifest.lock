@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../ss_payment/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../ss_payment/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../ss_payment/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../ss_payment/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  FlutterPluginRegistrant: 58acfb6cb31ee4ca14f920aba101815efda113ee
+
+PODFILE CHECKSUM: b18d8ab9c0c6cad183b19604c99fdce475f7728d
+
+COCOAPODS: 1.11.3
